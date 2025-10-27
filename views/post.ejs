@@ -1,0 +1,22 @@
+<%- include('./Partials/header.ejs') %>
+
+<div class="heading">
+    <h1>✍️ Your Posts</h1>
+</div>
+
+<div class="description">
+    
+    <% posts.forEach(function(post) { %>
+        <h1><%=post.title%></h1>
+        <p><%=post.content%></p>
+            <br>
+    <a href="/compose" class="btn btn-primary btn-sm">Add</a>
+    <a href="/compose" name="edit" class="btn btn-warning btn-sm">Edit</a>
+    <a href="/" name="delete" class="btn btn-danger btn-sm">Delete</a>
+    <% }) %>
+
+
+</div>
+
+
+<%- include('./Partials/footer.ejs') %>

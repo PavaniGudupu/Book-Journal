@@ -1,0 +1,19 @@
+<%- include('./Partials/header.ejs') %>
+
+<div class="heading">
+    <h1>📚 Read More</h1>
+    <p>Discover the full story behind your favorite books. Dive into details, explore the author’s journey, and explore publication info all in one place.</p>
+</div>
+
+<div class="description" style="text-align:center;">
+    <h2><%= bookTitle %></h2>
+    <img class="coverImg" src=<%= bookCover %> alt='img' style="max-width:200px; margin:20px 0; border-radius:10px;">
+    <p><strong>Description:</strong> <%= bookDescription %></p>
+    <p><strong>Author:</strong><%= bookAuthor %></p>
+    <p><strong>Published Year:</strong><%= bookPublishYear %></p>
+    <p><strong>Published Place:</strong><%= bookPublishPlace %></p>
+</div>
+
+
+
+<%- include('./Partials/footer.ejs') %>

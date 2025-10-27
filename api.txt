@@ -1,0 +1,40 @@
+Json data: https://covers.openlibrary.org/b/id/12547191.json
+book cover: https://covers.openlibrary.org/b/isbn/0385472579-S.jpg
+author img: https://covers.openlibrary.org/a/olid/OL229501A-S.jpg
+
+
+example:
+https://covers.openlibrary.org/b/id/240727-S.jpg
+https://covers.openlibrary.org/b/olid/OL7440033M-S.jpg
+https://covers.openlibrary.org/b/isbn/0385472579-S.jpg
+https://covers.openlibrary.org/b/isbn/9780385472579-S.jpg
+https://covers.openlibrary.org/b/lccn/93005405-S.jpg
+https://covers.openlibrary.org/b/oclc/28419896-S.jpg
+
+
+a = author
+b = book
+s, m, l = small, medium, large
+key (id type) = isbn, olid, id, lccn, oclc
+value = 0385472579, OL7440033M
+
+
+default link:
+https://covers.openlibrary.org/b/isbn/0385472579-S.jpg?default=false
+
+
+search:
+https://openlibrary.org/search.json?q={the+lord+of+the+rings}
+
+
+
+
+
+
+subject:
+https://openlibrary.org/subjects/{physics}.json
+
+https://openlibrary.org/ → Base URL of the Open Library API
+
+/subjects/physics.json → Returns a JSON response containing data about the Physics subject.
+

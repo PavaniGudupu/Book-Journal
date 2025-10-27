@@ -1,0 +1,24 @@
+<%- include('./Partials/header.ejs') %>
+
+<div class="heading">
+    <h1>🔎 Search the Book</h1>
+   <p>Discover books from every corner of the literary world! 
+Search by subject, author, or theme and uncover timeless classics, modern hits, or hidden gems. 
+BookHaven Journal makes it easy to explore, learn, and get inspired — all at your fingertips.</p>
+
+</div>
+
+<!-- Search Form -->
+<div class="search-container" style="text-align:center;">
+    <form action="/search" method="post">
+        <label for="subject"><strong>Subject: </strong></label>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject..." class="search-input" required>
+        <div style="margin: 20px 0;">
+            <button class="btn btn-primary" type="submit">submit</button>
+        </div>
+    </form>
+</div>
+
+
+
+<%- include('./Partials/footer.ejs') %>

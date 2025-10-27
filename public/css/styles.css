@@ -1,0 +1,199 @@
+/* ==== GENERAL ==== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fefaf6;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #3e2c1c;
+}
+
+a {
+  color: #b86b2b;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #7c4316;
+  text-decoration: underline;
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+  background-color: #fff5ec;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #7c4316 !important;
+}
+
+.navbar-nav > li > a {
+  color: #4d3220 !important;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.navbar-nav > li > a:hover {
+  color: #b86b2b !important;
+}
+
+/* ==== PAGE HEADINGS ==== */
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 20px;
+}
+
+.heading h1 {
+  font-size: 2.4rem;
+  color: #7c4316;
+}
+
+.heading p {
+  font-size: 1.2rem;
+  color: #5c4a37;
+  margin-top: 10px;
+}
+
+/* ==== DESCRIPTION SECTION ==== */
+.description {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.07);
+}
+
+.description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  color: #3f3a33;
+}
+
+.description ul {
+  margin-top: 18px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.description ul li {
+  background: #fef0e2;
+  margin-bottom: 12px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  color: #4a3b2e;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.description ul li strong {
+  color: #7c4316;
+}
+
+/* ==== FOOTER ==== */
+.footer-padding {
+  height: 90px;
+}
+
+.footer {
+  text-align: center;
+  padding: 18px 0;
+  background-color: #fff5ec;
+  color: #4d3220;
+  font-weight: 500;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -3px 6px rgba(0,0,0,0.05);
+  font-size: 1rem;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 768px) {
+  .description {
+    padding: 20px;
+  }
+  .heading h1 {
+    font-size: 1.8rem;
+  }
+  .description p, .description ul li {
+    font-size: 1rem;
+  }
+}
+
+
+
+.btn-outline-success {
+  color: #28a745;
+  background-color: transparent;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+
+/* Search container */
+.search-container {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #fffdf9;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.search-input {
+    width: 80%;
+    padding: 8px 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: 1px solid #d1b58f;
+    border-radius: 8px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #8c4c21;
+    box-shadow: 0 0 5px rgba(140,76,33,0.5);
+}
+
+/* Book result styling */
+.search-result p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.search-result a.btn {
+    background-color: #8c4c21;
+    border-color: #8c4c21;
+}
+
+.search-result a.btn:hover {
+    background-color: #d17b47;
+    border-color: #d17b47;
+}
+
+.coverImg {
+  background-color: #2b2b2b;
+  border: 1px solid black
+}

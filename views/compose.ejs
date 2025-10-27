@@ -1,0 +1,31 @@
+<%- include('./Partials/header.ejs') %>
+
+<div class="heading">
+    <h1>✍️ Compose Page</h1>
+    <p>You can let users write their own reflections about books here:</p>
+</div>
+
+<div class="description">
+    <p>“Write your thoughts about today’s discovery — maybe a quote, or a feeling that a book sparked in you.”</p>
+
+    <form action="/compose" method="post">
+
+   <div class="form-group">
+
+  <label for="">Title</label>
+  <input class="form-control" type="text" name="postTitle" id="">
+
+  <label for="">Post</label>
+  <textarea class="form-control" name="postBody" id=""></textarea>
+</div>
+
+ <button class="btn btn-primary" type="submit">Publish</button>
+</form>
+
+
+
+
+</div>
+
+
+<%- include('./Partials/footer.ejs') %>
